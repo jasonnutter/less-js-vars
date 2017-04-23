@@ -18,6 +18,9 @@
     "javascript",
     "webpack"
   ],
+  "files": [
+      "dist"
+  ],
   "author": {
     "name": "Jason Nutter",
     "url": "http://jasonnutter.com"
