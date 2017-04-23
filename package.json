@@ -1,6 +1,6 @@
 {
   "name": "@jasonnutter/less-js-vars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility to parse Less variables into JavaScript variables",
   "main": "dist/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "webpack"
   ],
   "files": [
-      "dist"
+    "dist"
   ],
   "author": {
     "name": "Jason Nutter",
