@@ -1,0 +1,53 @@
+{
+  "name": "@jasonnutter/less-js-vars",
+  "version": "0.0.1",
+  "description": "Utility to parse Less variables into JavaScript variables",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel src --out-dir dist",
+    "test": "jest",
+    "lint": "eslint .",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonnutter/less-js-vars.git"
+  },
+  "keywords": [
+    "less",
+    "javascript",
+    "webpack"
+  ],
+  "author": {
+    "name": "Jason Nutter",
+    "url": "http://jasonnutter.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonnutter/less-js-vars/issues"
+  },
+  "homepage": "https://github.com/jasonnutter/less-js-vars#readme",
+  "devDependencies": {
+    "@jasonnutter/eslint-config": "^2.0.2",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "lodash.trim": "^4.5.1"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
